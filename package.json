@@ -1,0 +1,21 @@
+{
+    "name": "whatsdown",
+    "version": "1.0.0",
+    "description": "chat application. sockets learning path 2021.",
+    "main": "server.js",
+    "author": "chomba",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "moment": "^2.29.1",
+        "socket.io": "^4.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.13",
+        "prettier": "2.4.1"
+    }
+}
