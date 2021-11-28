@@ -17,7 +17,7 @@ jobs:
                   password: ${{secrets.SSH_PASSWORD}}
                   script: |
                       pm2 stop all
-                      sudo rm -r -f server
+                      rm -r -f server
                       git clone git@github.com:chombazm/friendly-funicular.git server # clone the repo into the 'server folder' folder
                       cd server
                       yarn install # install dependencies
