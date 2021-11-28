@@ -1,4 +1,4 @@
-name: Deploy WHATSDOWN to Server
+name: WHATSDOWN CI
 on:
     push:
         branches: [main]
