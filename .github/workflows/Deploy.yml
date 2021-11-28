@@ -17,7 +17,7 @@ jobs:
                   username: ${{ secrets.SSH_USERNAME}} # User of the server you want to ssh into
                   script: |
                       pm2 stop all
-                      rm -r -f server
+                      sudo rm -r -f server
                       git clone git@github.com:chombazm/friendly-funicular.git server # clone the repo into the 'server folder' folder
                       cd server
                       yarn install # install dependencies
